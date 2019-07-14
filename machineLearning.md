@@ -38,5 +38,5 @@ plt.show()
 #You can predict a value using
 #print(Lreg.predict(someValue))
 ```
-
+ 
 <img align="left" width="300" height="250" src="https://miro.medium.com/max/640/1*sFs2I2fOaGf-LSQY-Xj8iw.png">
