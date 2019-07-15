@@ -40,3 +40,5 @@ plt.show()
 ```
  
 <img align="left" width="300" height="250" src="https://miro.medium.com/max/640/1*sFs2I2fOaGf-LSQY-Xj8iw.png">
+
+<img align="right" width="300" height="500" src="https://eksiup.com/p/nt535764uevr">
