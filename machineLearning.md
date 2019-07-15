@@ -4,7 +4,7 @@
 - y = mx + b [Predicted value/Target Value, Gradient/slope/Weight m, input x, b hiç reklam olmasa bile satış vardır (bias/y-intercept)]
 - Least square method: noktalarının birikme gösterdiği noktalardan geçen bir fonksiyonun bulunması yöntemi
 - regression line: noktaların tamamına en yakın geçen doğru
-- r squared: r arttıkça model uyumu artar.
+- r squared: r arttıkça model uyumu artar. r squared küçükse we ar not able to find a linear relation between the x and y
 - standart sapma: Eğer bir çok veri ortalamaya yakın ise standart sapma da düşük olacaktır
 - varyans: 1. sınıfta herkesin aldığı not 75. İkinci sınıfta 10 da var 100 de var ortalama yine 75. bu iki sınıfın başarısı aynıdır diyebilir miyiz? Tabi ki hayır. İşte standart sapma ve varyans bu noktada ortalamaya ilave olarak bize sınıf başarısı hakkında kanaat edinmemizi sağlıyor. Bir sınıfta notlar ortalamaya yakın dağılmışken (standart sapma ve varyans düşük), diğer sınıfta ortalamadan çok uzaklara (standart sapma ve varyans büyük) dağılmış.
 
