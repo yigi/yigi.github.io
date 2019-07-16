@@ -11,6 +11,7 @@ r = requests.get('any web site url')
 #r = requests.get('any web site url', headers = headers_param)
 r.status.code
 source = BeautifulSoup(r.content,"lxml")
+# buradaki r content elde edilen bir item ın içine girmek için de item.content olarak çağırılabilir.
 source.title
 
 source.find("p")
