@@ -1,5 +1,5 @@
 
-<img align="center" width="650" height="500" src="https://miro.medium.com/max/500/1*9GuW1tfc1DqQgztEa_W4Sg.png">
+<img align="center" width="350" height="300" src="https://miro.medium.com/max/500/1*9GuW1tfc1DqQgztEa_W4Sg.png">
 <img align="center" width="650" height="500" src="https://miro.medium.com/max/700/1*a7yzB7N1z44wgo5LEFq1Pw.png">
 <img align="center" width="650" height="500" src="https://miro.medium.com/max/558/1*QVDrjSYU8Wl0nRfafNbr6Q.png">
 
@@ -55,7 +55,7 @@ When visualizing the output we can see that we have two new columns. The Scored 
 
 ## Evaluating the model
 To now evaluate the model we drag in the Evaluate Model module and connect the output of the Score Model module to its left input node.
-<img align="center" width="650" height="500" src="https://miro.medium.com/max/312/1*33fr_3iTlrADUQz1FDM6tQ.png">
+<img align="center" width="350" height="300" src="https://miro.medium.com/max/312/1*33fr_3iTlrADUQz1FDM6tQ.png">
 
 
 <img align="center" width="650" height="500" src="https://miro.medium.com/max/700/1*5lJJgjfArudVzqNU3yA1vA.png">
