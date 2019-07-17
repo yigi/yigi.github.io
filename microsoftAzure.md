@@ -81,3 +81,5 @@ Python or R can be used by either dragging in the Execute Python Script or Execu
 With these modules you can perform tasks not currently supported by Azure ML Studio like creating extensive visualizations or performing complex data manipulations.
 For more information about the capabilities of the Execute Python Script module take a look at the documentation.
 <img align="center" width="650" height="500" src="https://miro.medium.com/max/700/1*N0DMHx6PIdfF0cRVoWVhIg.png">
+
+Additional notes : https://towardsdatascience.com/how-microsoft-azure-machine-learning-studio-clarifies-data-science-8e8d3e6ed64e
