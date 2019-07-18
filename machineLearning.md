@@ -41,21 +41,20 @@ plt.show()
  
 <img align="left" width="300" height="250" src="https://miro.medium.com/max/640/1*sFs2I2fOaGf-LSQY-Xj8iw.png">
 
-<img align="right" width="300" height="500" src="https://eksiup.com/p/nt535764uevr">
-
+[Image](https://eksiup.com/p/nt535764uevr)
 
 
 Skewness: Statistics değeri / Std error değeri bulunur. Çıkan değer > 0 ise sağa çarpıktır (asimetrik ), < 0 ise sola çarpıktır (asimetrik ), = 0 ise çarpıklık yoktur (simetrik dağılım). 
 Kurtosis: Statistics değeri / Std error değeri bulunur. Çıkan değer > 3 ise leptokurtic eğri mevcuttur (asimetrik ) ve uç değerlerin olasılığı yüksektir , < 3 ise platykurtic (asimetrik ) mevcuttur veriler normal dağılımdan daha basıktır ve daha geniş bir alana yayılmıştır, = 0 ise basıklık yoktur (mesokurtic, simetrik dağılım). 
 
- The skewness for this dataset is 0.514.  A positive skewness indicates that the size of the right-handed tail is larger than the left-handed tail.
+The skewness for this dataset is 0.514.  A positive skewness indicates that the size of the right-handed tail is larger than the left-handed tail.
  
- <img align="left" width="300" height="500" src="https://www.spcforexcel.com/files/images/Skewness-Kurtosis-Figures/Figure-2.png">
+<img align="left" width="300" height="500" src="https://www.spcforexcel.com/files/images/Skewness-Kurtosis-Figures/Figure-2.png">
+ 
 If the skewness is between -0.5 and 0.5, the data are fairly symmetrical
 If the skewness is between -1 and – 0.5 or between 0.5 and 1, the data are moderately skewed
 If the skewness is less than -1 or greater than 1, the data are highly skewed
 
-<img align="left" width="500" height="300" src=" https://www.researchgate.net/profile/John_Mitchell2/publication/5570487/figure/fig1/AS:213411729285120@1427892729413/Mesokurtic-leptokurtic-and-platykurtic.png
-">
+<img align="left" width="500" height="300" src="https://www.researchgate.net/profile/John_Mitchell2/publication/5570487/figure/fig1/AS:213411729285120@1427892729413/Mesokurtic-leptokurtic-and-platykurtic.png">
 
 
