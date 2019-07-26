@@ -28,9 +28,9 @@
 - statistical significance: you cant say 51% over 49% can decide the probability.
 - Little's MCAR test: figure out whether your data that is not missing at random -> if sig is greater than 0.05 there is no statistical sig. This mean that you accept the null hypot. that "Data is completely missing at random". If MAR and MCAR delete. Otherwise, impute. 
 
-0.05’den daha büyük>>İstatistiksel olarak anlamlı değil. 
-0.01-0.05 arası>>İstatistiksel olarak anlamlı
-0.001-0.01 arası>>Yüksek düzeyde istatistiksel olarak anlamlı
+0.05’den daha büyük > İstatistiksel olarak anlamlı değil. 
+0.01-0.05 arası > İstatistiksel olarak anlamlı
+0.001-0.01 arası > Yüksek düzeyde istatistiksel olarak anlamlı
 
 - Listwise deletion can introduce bias into dataset
 - Pairwise deletion related with below.
