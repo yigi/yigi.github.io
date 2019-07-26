@@ -57,4 +57,10 @@ If the skewness is less than -1 or greater than 1, the data are highly skewed
 
 <img align="left" width="500" height="300" src="https://www.researchgate.net/profile/John_Mitchell2/publication/5570487/figure/fig1/AS:213411729285120@1427892729413/Mesokurtic-leptokurtic-and-platykurtic.png">
 
+## Supervised & Unsupervised
+
+<img align="" width="700" height="300" src="https://miro.medium.com/max/700/1*ASYpFfDh7XnreU-ygqXonw.png">
+Supervised learning -> is typically done in the context of classification, when we want to map input to output labels, or regression, when we want to map input to a continuous output. 
+Unsupervised -> In all of these cases, we wish to learn the inherent structure of our data without using explicitly-provided labels.
+
 
