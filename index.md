@@ -1,4 +1,4 @@
-<img align="center" width="400" height="400" src="http://media.tnh.me/558dcb07067d7b3263739373/58d41b055ccacf53992e0628">
+<img align="center" width="400" height="300" src="http://media.tnh.me/558dcb07067d7b3263739373/58d41b055ccacf53992e0628">
 
 # For General Data Science Tips
 For more details see [General Data Science Page](https://ylglt.github.io/general.md).
@@ -20,6 +20,9 @@ For more details see [Pandas Page](https://ylglt.github.io/pandas.md).
 
 # For Python Tips
 For more details see [Python Page](https://ylglt.github.io/python.md).
+
+# For Visualization Tips
+For more details see [Visualization Page](https://ylglt.github.io/visualization.md).
 
 
 
