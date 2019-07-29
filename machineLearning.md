@@ -8,7 +8,7 @@
 - standart sapma: Eğer bir çok veri ortalamaya yakın ise standart sapma da düşük olacaktır
 - varyans: 1. sınıfta herkesin aldığı not 75. İkinci sınıfta 10 da var 100 de var ortalama yine 75. bu iki sınıfın başarısı aynıdır diyebilir miyiz? Tabi ki hayır. İşte standart sapma ve varyans bu noktada ortalamaya ilave olarak bize sınıf başarısı hakkında kanaat edinmemizi sağlıyor. Bir sınıfta notlar ortalamaya yakın dağılmışken (standart sapma ve varyans düşük), diğer sınıfta ortalamadan çok uzaklara (standart sapma ve varyans büyük) dağılmış.
 
-
+For more details see [Linear Regression Page](https://ylglt.github.io/linearRegression.md).
 ## Linear Regression sayfasına taşınacaklar
  
 - linear regression: The goal of Regression is to explore the relation between the input Feature with that of the target Value and give us a continuous Valued output for the given unknown data. 
@@ -57,10 +57,21 @@ If the skewness is less than -1 or greater than 1, the data are highly skewed
 
 <img align="left" width="500" height="300" src="https://www.researchgate.net/profile/John_Mitchell2/publication/5570487/figure/fig1/AS:213411729285120@1427892729413/Mesokurtic-leptokurtic-and-platykurtic.png">
 
+___________________________________________________________________________________________________________________________
+
 ## Supervised & Unsupervised
 
 <img align="" width="700" height="300" src="https://miro.medium.com/max/700/1*ASYpFfDh7XnreU-ygqXonw.png">
-Supervised learning -> is typically done in the context of classification, when we want to map input to output labels, or regression, when we want to map input to a continuous output. 
+Supervised learning -> is typically done in the context of classification, when we want to map input to output labels, or regression, when we want to map input to a continuous output.
+
 Unsupervised -> In all of these cases, we wish to learn the inherent structure of our data without using explicitly-provided labels.
+
+___________________________________________________________________________________________________________________________
+
+## Cost Function
+
+In ML, cost functions are used to estimate how badly models are performing. Put simply, a cost function is a measure of how wrong the model is in terms of its ability to estimate the relationship between X and y.
+Minimizing the cost function: Gradient descent
+Now that we know that models learn by minimizing a cost function, you may naturally wonder how the cost function is minimized — enter gradient descent. Gradient descent is an efficient optimization algorithm that attempts to find a local or global minima of a function.
 
 
