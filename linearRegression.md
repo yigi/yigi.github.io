@@ -1,3 +1,4 @@
+# Theory 
 ## Dependent / Independent 
 
 <img align="left" width="400" height="300" src="https://miro.medium.com/max/422/1*MUYXO8-4jVJ2VnW4Hy6QmA.png">
@@ -64,3 +65,6 @@ If the skewness is between -1 and – 0.5 or between 0.5 and 1, the data are mod
 If the skewness is less than -1 or greater than 1, the data are highly skewed
 
 <img align="left" width="500" height="300" src="https://www.researchgate.net/profile/John_Mitchell2/publication/5570487/figure/fig1/AS:213411729285120@1427892729413/Mesokurtic-leptokurtic-and-platykurtic.png">
+
+
+# Notebook
