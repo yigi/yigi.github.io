@@ -2,7 +2,8 @@
 ## Dependent / Independent 
 
 <img align="left" width="400" height="300" src="https://miro.medium.com/max/422/1*MUYXO8-4jVJ2VnW4Hy6QmA.png">
-- Our independent variables are independent because we cannot mathematically determine the years of experience. But, we can determine / predict salary column values (Dependent Variables) based on years of experience. If you look at the data, the dependent column values (Salary in 1000$) are increasing / decreasing based on years of experience.
+- Our independent variables are independent because we cannot mathematically determine the years of experience. 
+But, we can determine / predict salary column values (Dependent Variables) based on years of experience. If you look at the data, the dependent column values (Salary in 1000$) are increasing / decreasing based on years of experience.
 
 ## Sum of Squared Errors (SSE)
 In order to fit the best intercept line between the points in the above scatter plots, we use a metric called “Sum of Squared Errors” (SSE) and compare the lines to find out the best fit by reducing errors. The errors are sum difference between actual value and predicted value.
@@ -18,8 +19,9 @@ y = mx + b,
 ‘b’ is intercept
 We will use Ordinary Least Squares method to find the best line intercept (b) slope (m)
 
- 
-## Linear Regression
+________________________________________________________________________________________________________________
+
+# Code
 The goal of Regression is to explore the relation between the input Feature with that of the target Value and give us a continuous Valued output for the given unknown data. 
 ```python
 import pandas
@@ -58,13 +60,17 @@ Kurtosis: Statistics değeri / Std error değeri bulunur. Çıkan değer > 3 ise
 
 The skewness for this dataset is 0.514.  A positive skewness indicates that the size of the right-handed tail is larger than the left-handed tail.
  
-<img align="left" width="300" height="500" src="https://www.spcforexcel.com/files/images/Skewness-Kurtosis-Figures/Figure-2.png">
+<img align="left" width="300" height="400" src="https://www.spcforexcel.com/files/images/Skewness-Kurtosis-Figures/Figure-2.png">
  
 If the skewness is between -0.5 and 0.5, the data are fairly symmetrical
 If the skewness is between -1 and – 0.5 or between 0.5 and 1, the data are moderately skewed
 If the skewness is less than -1 or greater than 1, the data are highly skewed
 
-<img align="left" width="500" height="300" src="https://www.researchgate.net/profile/John_Mitchell2/publication/5570487/figure/fig1/AS:213411729285120@1427892729413/Mesokurtic-leptokurtic-and-platykurtic.png">
+<img align="right" width="520" height="300" src="https://www.researchgate.net/profile/John_Mitchell2/publication/5570487/figure/fig1/AS:213411729285120@1427892729413/Mesokurtic-leptokurtic-and-platykurtic.png">
+
+________________________________________________________________________________________________________________
 
 
 # Notebook
+
+Visit [Linear Regression Jupyter Notebook](https://github.com/YlGlT/JN-Python/blob/master/Machine%20Learning/linear-reqression-leastsquares.ipynb).
