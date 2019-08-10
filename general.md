@@ -22,3 +22,6 @@
 - make further research on pandas .corr()
 - since corr is zero we can infer there is no linear relationship between these two predictors. 
 - KDE: kernel density estimate useful tool for plotting the shape of distrubition
+
+### TOOLS
+- Spyder for Python
