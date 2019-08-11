@@ -25,3 +25,10 @@
 
 ### TOOLS
 - Spyder for Python
+
+### Building a model
+- All in
+- Backward Elimination
+- Forward Selection
+- Bidirectional Elimination
+- Score Comparison
