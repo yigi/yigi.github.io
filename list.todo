@@ -1,0 +1,10 @@
+precision recall f value support ??
+from sklearn.metrics import confusion_matrix
+confusion_matrix(a,b)
+coef const and experince on gretl
+z score
+pandas corrwih
+pandas group by: data.groupby('left side').agg(('top side':[np.size, np.mean]))
+mean absolute error
+mean squared error
+root mean squared error 
