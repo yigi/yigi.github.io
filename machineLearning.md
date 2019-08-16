@@ -27,4 +27,18 @@ In ML, cost functions are used to estimate how badly models are performing. Put 
 Minimizing the cost function: Gradient descent
 Now that we know that models learn by minimizing a cost function, you may naturally wonder how the cost function is minimized — enter gradient descent. Gradient descent is an efficient optimization algorithm that attempts to find a local or global minima of a function.
 
+___________________________________________________________________________________________________________________________
 
+# TIPS
+- FP we predict it positive but it was false LESS DANGEROUS 
+- FN we predict it negative but it was false (think person is cancer but you say person is not cancer )
+
+- z score = coeff / std. err
+
+- you can interpret coefficient signs: + contributes - detracts
+- you canNOT interpret magnitudes of the coefficient
+
+- transform dependent variables in order to increase accuracy 
+
+- multicollinearity using VIF
+- collinearity is not always good and may break the model
