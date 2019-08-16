@@ -15,7 +15,7 @@ ________________________________________________________________________________
 ## Supervised & Unsupervised
 
 <img align="" width="700" height="300" src="https://miro.medium.com/max/700/1*ASYpFfDh7XnreU-ygqXonw.png">
-Supervised learning -> is typically done in the context of classification, when we want to map input to output labels, or regression, when we want to map input to a continuous output.
+Supervised learning -> is typically done in the context of classification, when we want to map input to output labels, or regression, when we want to map input to a continuous output. ~predict the answer for new, unknown values.~
 
 Unsupervised -> In all of these cases, we wish to learn the inherent structure of our data without using explicitly-provided labels.
 
@@ -51,3 +51,7 @@ ________________________________________________________________________________
 - r squared is bias
 - more variables added to model greater r squared value we have
   - that doesn't mean if we add unnecessary variables to the model r square and model prediction will increase in that case adjusted r squared comes up
+  
+- polyld polyfit x y 8 yerine x y 1
+- naive bayes: use classifier = MultinomialNB()
+- entropy: if all animals are iguana entropy = 0 & H(S) = -p1 ln p1 -p2 ln p2
