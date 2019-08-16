@@ -33,12 +33,21 @@ ________________________________________________________________________________
 - FP we predict it positive but it was false LESS DANGEROUS 
 - FN we predict it negative but it was false (think person is cancer but you say person is not cancer )
 
+
 - z score = coeff / std. err
+
 
 - you can interpret coefficient signs: + contributes - detracts
 - you canNOT interpret magnitudes of the coefficient
 
+
 - transform dependent variables in order to increase accuracy 
+
 
 - multicollinearity using VIF
 - collinearity is not always good and may break the model
+
+
+- r squared is bias
+- more variables added to model greater r squared value we have
+  - that doesn't mean if we add unnecessary variables to the model r square and model prediction will increase in that case adjusted r squared comes up
