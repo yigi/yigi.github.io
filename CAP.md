@@ -1,3 +1,5 @@
+The cumulative accuracy profile (CAP) is used in data science to visualize the discriminative power of a model. 
+
 ```python
 #importing libraries
 import numpy as np
@@ -80,4 +82,4 @@ plt.ylabel('% of positive obs')
 plt.legend()
 plt.show()
 ```
-<img align="center" width="900" height="900" src="http://www.semspirit.com//wp-content/uploads/sites/17154/2017/11/Test-Set-CAP-Curve-1024x555.png">
+<img align="center" width="900" height="600" src="http://www.semspirit.com//wp-content/uploads/sites/17154/2017/11/Test-Set-CAP-Curve-1024x555.png">
