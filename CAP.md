@@ -1,6 +1,6 @@
 The cumulative accuracy profile (CAP) is used in data science to visualize the discriminative power of a model. 
 
-```python
+```python 
 #importing libraries
 import numpy as np
 import pandas as pd
