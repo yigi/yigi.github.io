@@ -3,7 +3,7 @@ principal component analysis: singular value decomposition
 Iris dataset sepals and petals have length and width. this is 4 dimensions.
 PCA lets us visualize this in 2 dimensions while preserving variance
 ```python
-from sklearn.datasets import load_iris
+from sklearn.datasets import load_iris 
 from sklearn.decomposition import PCA
 import pylab as pl
 from itertools import cycle
