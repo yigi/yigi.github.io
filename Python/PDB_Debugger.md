@@ -1,6 +1,6 @@
 Install Web-PDB into your working Python environment:
 
-### pip install web-pdb
+### pip3 install web-pdb
 
 ```python
 x = 1
