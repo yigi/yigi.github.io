@@ -1,6 +1,20 @@
-<img align="center" width="950" height="500" src="https://miro.medium.com/max/700/0*knbe-bXPrpJR5-nb">
+**Line plot** is better when x axis is **time**
 
-<img align="center" width="950" height="500" src="https://miro.medium.com/max/700/0*XeUtoj3vZWNWaOUU">
+**Scatter** is better when there is a **correlation between two variables**
+
+**Histogram** is better when need to see **distrubition of nummerical data**
+
+
+
+
+
+
+
+# TABLEAU
+
+<img align="center" width="850" height="500" src="https://miro.medium.com/max/700/0*knbe-bXPrpJR5-nb">
+
+<img align="center" width="850" height="500" src="https://miro.medium.com/max/700/0*XeUtoj3vZWNWaOUU">
 
 When you launch Tableau Desktop, the data connectors that are available to you are listed on the Connect pane, which is the left pane on the Start page. File types are listed first, then common server types, or servers that you’ve recently connected to. Click More to see the complete list of data connectors you can use. UnderOpen, you can open workbooks that you have already created. Under Sample Workbooks, view sample dashboards and worksheets that come with Tableau Desktop. Under Discover, find additional resources like video tutorials, forums
 
