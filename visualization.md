@@ -84,3 +84,14 @@ Lastly, do not forget to save the results by selecting File > Save As. Give your
 <img align="center" width="950" height="500" src="https://miro.medium.com/max/700/0*go7tV7tYNIxQ7Fd0">
 
 
+________________________________________________________________________________________________________
+
+## How to use TABLEAU districts with created custom polygons
+
+https://drawingtool.powertoolsfortableau.com/#
+
+https://file.io/8PFkcT
+
+<img align="center" width="800" height="450" src="https://serving.photos.photobox.com/00391440571d74550d8f3f1a206cc4ea1a2fae6a1d9fb1f3092fd638a4ae8a20912a96dc.jpg">
+
+[![Watch the video]](https://www.youtube.com/watch?v=6X2HofAUA3Y)
