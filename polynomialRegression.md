@@ -1,5 +1,6 @@
 ### polynomial regression
 
+```python
 from sklearn.linear_model import LinearRegression
 lin_reg = LinearRegression()
 lin_reg.fit(X,y)
@@ -18,3 +19,4 @@ plt.plot(X, lin_reg_2.predict(poly_reg.fit_transform(X)), color = 'blue')
 plt.show()
 
 lin_reg_2.predict(poly_reg.fit_transform(6))
+```
