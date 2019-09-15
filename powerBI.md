@@ -43,3 +43,41 @@ Select the Modeling ribbon and then click on the New Table button.  Enter the fo
 ```DAX
 Summary = SUMMARIZE('Data', Data[Blend], "Sum Sales", SUM(Data[Sales]) )
 ```
+
+!! In this equation we first select the table and in this case it is ‘Data’.  Then the column we want to summarize or group by is the Segment column noted as Data[Blend].  The next field is the title of the summarized field column, noted as “Sum Sales”.  Then DAX function that calculates the Sum of the column labeled Data[Sales], noted as SUM(Data[Sales]).  It is relevant to point out here that the SUMMARIZE function will only work with building a new table and not as a calculated column or measure.
+
+Add a new Table visual to the report and include the two newly created fields from the Summary table.
+
+<img align="left" width="650" height="600" src="https://powerbi.tips/wp-content/uploads/2016/10/Summary-Table-Visual.png">
+
+
+We have a field titled Blend which is our Key for all the summarized groupings.  Next, we will want to parse out the Segments and Items from this blend column.  We will want to use Category 1 & 2 in a slicer and the same for Items 1 to 5.  Highlight the summary table by clicking the grey space next to the word Summary.  Click the New Column button on the Modeling ribbon and enter the following DAX expression.
+
+```DAX
+Segment = PATHITEM(
+   SUBSTITUTE(Summary[Blend], "-" , "|" ),
+   1 )
+```
+
+In this expression the Substitute function replaced the dash “-” with a “|” character.  Then the PATHITEM function can then parse the text into segments.  By entering a 1 we select the first item in the sequence.  For our example we only have two items, but when you’re working with file paths you can have multiple items in the path such as “\users\mike\my documents\my folder\”, which would equate to users = position 1, mike = position 2, my documents = position 3, etc..
+
+Add another new column with the following DAX expression for the item column.
+
+```DAX
+Item = PATHITEM( 
+  SUBSTITUTE(Summary[Blend], "-" , "|" ),
+  2 )
+```
+
+Note: We changed the PATHITEM position from 1 to 2.
+
+Next add the newly created Segment and Item columns to our summary table visual that we created earlier.
+
+<img align="left" width="650" height="600" src="https://powerbi.tips/wp-content/uploads/2016/10/Add-New-Fields.png">
+
+ Now we have to modify our slicers to point to the new Item and Segment fields we created in the Summary table.  Select the Segment Slicer Visual and add the Segment Field from the Summary table.
+ 
+ 
+<img align="left" width="650" height="600" src="https://powerbi.tips/wp-content/uploads/2016/10/Update-Segment-Slicer.png">
+
+<img align="left" width="650" height="600" src="https://powerbi.tips/wp-content/uploads/2016/10/Update-Item-Slicer.png">
