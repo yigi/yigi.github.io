@@ -8,18 +8,12 @@
 <table class="tg">
   <tr>
     <td class="tg-c3ow"><a href="https://ylglt.github.io/python.md">Python</a></td>
-    <td class="tg-0pky"><a href="https://ylglt.github.io/machineLearning.md">Machine Learning</a></td>
+      <td class="tg-0pky"><a href="https://ylglt.github.io/machineLearning.md">Machine Learning</a></td>
+        <td class="tg-c3ow"><a href="https://ylglt.github.io/webScrapping.md">Web Scrapping Page</a></td>
   </tr>
     <tr>
     <td class="tg-c3ow"><a href="https://ylglt.github.io/pandas.md">Pandas</a></td>
-    <td class="tg-c3ow"><a href="https://ylglt.github.io/microsoftAzure.md">Microsoft Azure</a></td>
-  </tr>
-  <tr>
-    <td class="tg-c3ow"><a href="https://ylglt.github.io/webScrapping.md">Web Scrapping Page</a></td>
-    <td class="tg-0pky"><a href="https://ylglt.github.io/dataCleaning.md">Data Cleaning Page</a></td>
-  </tr>
-  <tr>
-    <td class="tg-c3ow"></td>
-    <td class="tg-0pky"></td>
+      <td class="tg-c3ow"><a href="https://ylglt.github.io/microsoftAzure.md">Microsoft Azure</a></td>
+        <td class="tg-0pky"><a href="https://ylglt.github.io/dataCleaning.md">Data Cleaning Page</a></td>
   </tr>
 </table>
