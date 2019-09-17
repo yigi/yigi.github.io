@@ -34,11 +34,11 @@ For more details see [General Data Science Page](https://ylglt.github.io/general
 </style>
 <table class="tg">
   <tr>
-    <th class="tg-c3ow"></th>
-    <th class="tg-c3ow"></th>
-    <th class="tg-0pky"></th>
-    <th class="tg-0pky"></th>
-    <th class="tg-0pky"></th>
+    <th class="tg-c3ow">[Python Page](https://ylglt.github.io/python.md)</th>
+    <th class="tg-c3ow">[Pandas Page](https://ylglt.github.io/pandas.md)</th>
+    <th class="tg-0pky">[Microsoft Azure Page](https://ylglt.github.io/microsoftAzure.md)</th>
+    <th class="tg-0pky">[Web Scrapping Page](https://ylglt.github.io/webScrapping.md)</th>
+    <th class="tg-0pky">[Data Cleaning Page](https://ylglt.github.io/dataCleaning.md)</th>
   </tr>
   <tr>
     <td class="tg-c3ow"></td>
