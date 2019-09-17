@@ -7,7 +7,7 @@
 </style>
 <table class="tg">
   <tr>
-    <td class="tg-c3ow"><a href="https://ylglt.github.io/python.md">Python</a></td>
+    <td class="tg-c3ow"><a href="https://ylglt.github.io/python">Python</a></td>
       <td class="tg-0pky"><a href="https://ylglt.github.io/machineLearning.md">Machine Learning</a></td>
         <td class="tg-c3ow"><a href="https://ylglt.github.io/webScrapping.md">Web Scrapping Page</a></td>
   </tr>
