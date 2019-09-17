@@ -8,21 +8,17 @@
 <table class="tg">
   <tr>
     <td class="tg-c3ow"><a href="https://ylglt.github.io/python.md">Python</a></td>
-    <td class="tg-c3ow"><a href="https://ylglt.github.io/pandas.md">Pandas</a></td>
     <td class="tg-0pky"><a href="https://ylglt.github.io/machineLearning.md">Machine Learning</a></td>
   </tr>
     <tr>
-    <th class="tg-c3ow">[Python Page](https://ylglt.github.io/python.md)</th>
-    <th class="tg-c3ow">[Pandas Page](https://ylglt.github.io/pandas.md)</th>
-    <th class="tg-0pky">[Microsoft Azure Page](https://ylglt.github.io/microsoftAzure.md)</th>
+    <td class="tg-c3ow"><a href="https://ylglt.github.io/pandas.md">Pandas</a></td>
+    <td class="tg-c3ow"><a href="https://ylglt.github.io/microsoftAzure.md">Microsoft Azure</a></td>
   </tr>
   <tr>
-    <td class="tg-c3ow">[Machine Learning Page](https://ylglt.github.io/machineLearning.md)</td>
-    <td class="tg-c3ow">[Data Cleaning Page](https://ylglt.github.io/dataCleaning.md)</td>
-    <td class="tg-0pky">[Web Scrapping Page](https://ylglt.github.io/webScrapping.md)</td>
+    <td class="tg-c3ow"><a href="https://ylglt.github.io/webScrapping.md">Web Scrapping Page</a></td>
+    <td class="tg-0pky"><a href="https://ylglt.github.io/dataCleaning.md">Data Cleaning Page</a></td>
   </tr>
   <tr>
-    <td class="tg-c3ow">[General Data Science Page](https://ylglt.github.io/general.md)</td>
     <td class="tg-c3ow"></td>
     <td class="tg-0pky"></td>
   </tr>
