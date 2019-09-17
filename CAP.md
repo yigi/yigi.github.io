@@ -1,4 +1,8 @@
-The cumulative accuracy profile (CAP) is used in data science to visualize the discriminative power of a model. 
+ It is a more robust method to assist our machine model.  The cumulative accuracy profile (CAP) is used in data science to visualize the discriminative power of a model. 
+ 
+ **The better your model, the larger will be the area between its CAP curve and the random scenario straight line.**
+ 
+ check- -> https://towardsdatascience.com/machine-learning-classifier-evaluation-using-roc-and-cap-curves-7db60fe6b716
 
 ```python 
 #importing libraries
