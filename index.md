@@ -7,13 +7,13 @@
 </style>
 <table class="tg">
   <tr>
-    <td class="tg-c3ow"><a href="https://ylglt.github.io/python">Python</a></td>
-      <td class="tg-0pky"><a href="https://ylglt.github.io/machineLearning">Machine Learning</a></td>
-        <td class="tg-c3ow"><a href="https://ylglt.github.io/webScrapping">Web Scrapping Page</a></td>
-          <td class="tg-c3ow"><a href="https://ylglt.github.io/pandas">Pandas</a></td>
-            <td class="tg-c3ow"><a href="https://ylglt.github.io/microsoftAzure">Microsoft Azure</a></td>
+    <td class="tg-c3ow"><a href="https://yigi.github.io/python">Python</a></td>
+      <td class="tg-0pky"><a href="https://yigi.github.io/machineLearning">Machine Learning</a></td>
+        <td class="tg-c3ow"><a href="https://yigi.github.io/webScrapping">Web Scrapping Page</a></td>
+          <td class="tg-c3ow"><a href="https://yigi.github.io/pandas">Pandas</a></td>
+            <td class="tg-c3ow"><a href="https://yigi.github.io/microsoftAzure">Microsoft Azure</a></td>
   </tr>
     <tr>
-        <td class="tg-0pky"><a href="https://ylglt.github.io/dataCleaning">Data Cleaning Page</a></td>
+        <td class="tg-0pky"><a href="https://yigi.github.io/dataCleaning">Data Cleaning Page</a></td>
   </tr>
 </table>
