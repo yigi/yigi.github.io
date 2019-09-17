@@ -8,8 +8,8 @@
 <table class="tg">
   <tr>
     <td class="tg-c3ow"><a href="https://ylglt.github.io/python.md">Python</a></td>
-    <td class="tg-c3ow"></td>
-    <td class="tg-0pky"></td>
+    <td class="tg-c3ow"><a href="https://ylglt.github.io/pandas.md">Pandas</a></td>
+    <td class="tg-0pky"><a href="https://ylglt.github.io/machineLearning.md">Machine Learning</a></td>
   </tr>
     <tr>
     <th class="tg-c3ow">[Python Page](https://ylglt.github.io/python.md)</th>
