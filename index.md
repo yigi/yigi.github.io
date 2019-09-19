@@ -34,9 +34,15 @@
               <td class="tg-0pky"><a href="https://yigi.github.io/Python/PDB_Debugger">PDB Debugger</a></td>
 
   </tr>
-   <tr>
-        <td class="tg-0pky"><a href="https://yigi.github.io/category_encoders">Category_encoders</a></td>
-          <td class="tg-0pky"><a href="https://yigi.github.io/gmplot">gmplot</a></td>
-
-  </tr>
 </table>
+
+
+<table class="tg">
+   <tr>
+     <td class="tg-0pky">Python Libraries</td>
+   </tr>
+   <tr>
+     <td class="tg-0pky"><a href="https://yigi.github.io/category_encoders">Category_encoders</a></td>
+      <td class="tg-0pky"><a href="https://yigi.github.io/gmplot">gmplot</a></td>
+  </tr>
+</table>  
