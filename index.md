@@ -12,6 +12,7 @@ ________________________________________________________________________________
    </tr>
    <tr>
      <td class="tg-0pky"><a href="https://yigi.github.io/powerBI">Power BI</a></td>
+      <td class="tg-0pky"><a href="https://yigi.github.io/tableau">Tableau</a></td>
   </tr>
 </table>  
 
