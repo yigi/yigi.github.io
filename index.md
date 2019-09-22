@@ -25,6 +25,7 @@ ________________________________________________________________________________
    <tr>
      <td class="tg-0pky"><a href="https://yigi.github.io/category_encoders">category_encoders</a></td>
       <td class="tg-0pky"><a href="https://yigi.github.io/gmplot">gmplot</a></td>
+       <td class="tg-0pky"><a href="https://yigi.github.io/pandas-profiling">pandas-profiling</a></td> 
   </tr>
 </table>  
 
