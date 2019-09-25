@@ -105,7 +105,7 @@ df_keys = pd.concat(frames, keys=['x', 'y'])
 
 df_keys
                      id	Feature1	Feature2
-x	       0	1	A	       B
+x     	       0	1	A	       B
               1	2	C	       D
               2	3	E	       F
               3	4	G	       H
@@ -120,3 +120,32 @@ y	       0	1	K	       L
 ___________________________________________________________________________________
 
 ### Merge DataFrames
+
+It might happen that the column on which you want to merge the DataFrames have different names (unlike in this case). For such merges, you will have to specify the arguments left_on as the left DataFrame name and right_on as the right DataFrame name, like :
+
+```python
+df_merge_difkey = pd.merge(df_row, df3, left_on='id', right_on='id')
+
+df_merge_difkey
+       id	Feature1	Feature2	Feature3
+0	1	A	       B	       12
+1	1	K	       L	       12
+2	2	C	       D	       13
+3	2	M	       N	       13
+4	3	E	       F	       14
+5	4	G	       H	       15
+6	5	I	       J	       16
+7	7	Q	       R	       17
+8	8	S	       T	       15
+```
+
+```python
+You can also append rows to a DataFrame by passing a Series or dict to append() function which returns a new DataFrame:
+
+add_row = pd.Series(['10', 'X1', 'X2', 'X3'],
+                    index=['id','Feature1', 'Feature2', 'Feature3'])
+
+df_add_row = df_merge_col.append(add_row, ignore_index=True)
+
+df_add_row
+```
