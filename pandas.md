@@ -1,6 +1,7 @@
-## Pandas Tips
+# Pandas Tips
 
-Reshape your data using array.reshape(1, -1) if it contains a single sample
+### Reshape 
+your data using array.reshape(1, -1) if it contains a single sample
 Exact 1 row. However, column is **unknown**
 
 ```python
@@ -18,3 +19,104 @@ array([[ 1,  2],
        [ 9, 10],
        [11, 12]])
 ```
+
+____________________________________________________________________________________
+
+### Build a DataFrame from multiple files (row-wise)
+Let's say that your dataset is spread across multiple files, but you want to read the dataset into a single DataFrame.
+
+For example, I have a small dataset of stock data in which each CSV file only includes a single day. Here's the first day:
+
+```python
+pd.read_csv('data/stocks1.csv')
+
+       Date	       Close	Volume	       Symbol
+0	2016-10-03	31.50	14070500	CSCO
+1	2016-10-03	112.52	21701800	AAPL
+2	2016-10-03	57.42	19189500	MSFT
+
+
+       Date	       Close	Volume	       Symbol
+0	2016-10-04	113.00	29736800	AAPL
+1	2016-10-04	57.24	20085900	MSFT
+2	2016-10-04	31.35	18460400	CSCO
+```
+
+```python
+from glob import glob
+```
+
+You can pass a pattern to glob(), including wildcard characters, and it will return a list of all files that match that pattern.
+
+In this case, glob is looking in the "data" subdirectory for all CSV files that start with the word "stocks":
+
+```python
+stock_files = sorted(glob('data/stocks*.csv'))
+stock_files
+['data/stocks1.csv', 'data/stocks2.csv', 'data/stocks3.csv']
+```
+
+glob returns filenames in an arbitrary order, which is why we sorted the list using Python's built-in sorted() function.
+
+We can then use a generator expression to read each of the files using read_csv() and pass the results to the concat() function, which will concatenate the rows into a single DataFrame:
+
+```python
+pd.concat((pd.read_csv(file) for file in stock_files))
+```
+
+**Unfortunately**, there are now duplicate values in the index. To avoid that, we can tell the concat() function to ignore the index and instead use the default integer index:
+
+```python
+pd.concat((pd.read_csv(file) for file in stock_files), ignore_index=True)
+```
+
+____________________________________________________________________________________
+
+### Concatenate DataFrames
+
+```python
+df_row = pd.concat([df1, df2])
+
+df_row
+       id	Feature1	Feature2
+0	1	A	       B
+1	2	C	       D
+2	3	E	       F
+3	4	G	       H
+4	5	I	       J
+0	1	K	       L
+1	2	M	       N
+2	6	O	       P
+3	7	Q	       R
+4	8	S	       T
+```
+
+You can notice that the two DataFrames df1 and df2 are now concatenated into a single DataFrame df_row along the row. However, the row labels seem to be wrong! If you want the row labels to adjust automatically according to the join, you will have to set the argument ignore_index as True while calling the concat() function:
+
+```python
+df_row_reindex = pd.concat([df1, df2], ignore_index=True)
+```
+
+pandas also provides you with an option to label the DataFrames, after the concatenation, with a key so that you may know which data came from which DataFrame
+
+```python
+frames = [df1,df2]
+df_keys = pd.concat(frames, keys=['x', 'y'])
+
+df_keys
+                     id	Feature1	Feature2
+x	       0	1	A	       B
+              1	2	C	       D
+              2	3	E	       F
+              3	4	G	       H
+              4	5	I	       J
+y	       0	1	K	       L
+              1	2	M	       N
+              2	6	O	       P
+              3	7	Q	       R
+              4	8	S	       T
+```
+
+___________________________________________________________________________________
+
+### Merge DataFrames
