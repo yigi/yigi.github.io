@@ -71,8 +71,10 @@ ________________________________________________________________________________
    </tr>
     <tr>
          <td class="tg-0pky"><a href="https://yigi.github.io/Python/PDB_Debugger">PDB Debugger</a></td>
-         <td class="tg-c3ow"><a href="https://yigi.github.io/webScrapping">Web Scrapping Page</a></td>
-          <td class="tg-c3ow"><a href="https://yigi.github.io/pandas">Pandas</a></td>
+            <td class="tg-c3ow"><a href="https://yigi.github.io/webScrapping">Web Scrapping Page</a></td>
+               <td class="tg-c3ow"><a href="https://yigi.github.io/pandas">Pandas</a></td>
+                  <td class="tg-c3ow"><a href="https://yigi.github.io/unboundLocalError">unboundLocalError</a></td>
+                     <td class="tg-c3ow"><a href="https://yigi.github.io/f-string">f-string</a></td>
   </tr>
 </table>  
 
