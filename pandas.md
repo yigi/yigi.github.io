@@ -104,17 +104,17 @@ frames = [df1,df2]
 df_keys = pd.concat(frames, keys=['x', 'y'])
 
 df_keys
-                     id	Feature1	Feature2
-x     	       0	1	A	       B
-              1	2	C	       D
-              2	3	E	       F
-              3	4	G	       H
-              4	5	I	       J
-y	       0	1	K	       L
-              1	2	M	       N
-              2	6	O	       P
-              3	7	Q	       R
-              4	8	S	       T
+                            id	Feature1	Feature2
+x             0	       1	A	       B
+              1	       2	C	       D
+              2	       3	E	       F
+              3	       4	G	       H
+              4	       5	I	       J
+y             0	       1	K	       L
+              1	       2	M	       N
+              2	       6	O	       P
+              3	       7	Q	       R
+              4	       8	S	       T
 ```
 
 ___________________________________________________________________________________
