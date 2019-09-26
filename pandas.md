@@ -149,3 +149,49 @@ df_add_row = df_merge_col.append(add_row, ignore_index=True)
 
 df_add_row
 ```
+
+___________________________________________________________________________________
+
+
+### Full Outer Join
+The FULL OUTER JOIN combines the results of both the left and the right outer joins. The joined DataFrame will contain all records from both the DataFrames and fill in NaNs for missing matches on either side. You can perform a full outer join by specifying the how argument as outer in the merge() function:
+
+```python
+df_outer = pd.merge(df1, df2, on='id', how='outer')
+
+df_outer
+```
+
+```python
+       id	Feature1_x	Feature2_x	Feature1_y	Feature2_y
+0	1	A	       B	       K	       L
+1	2	C	       D	       M	       N
+2	3	E	       F	       NaN	       NaN
+3	4	G	       H	       NaN	       NaN
+4	5	I	       J	       NaN	       NaN
+5	6	NaN	       NaN	       O	       P
+6	7	NaN	       NaN	       Q	       R
+7	8	NaN	       NaN	       S	       T
+```
+
+df_suffix = pd.merge(df1, df2, left_on='id',right_on='id',how='outer',suffixes=('_left','_right'))
+
+df_suffix
+
+id	Feature1_left	   Feature2_left     Feature1_right	Feature2_right
+
+https://image.slidesharecdn.com/sqlouterjoins-131118145750-phpapp01/95/sql-outer-joins-for-fun-and-profit-8-638.jpg?cb=1384786728
+
+
+### Inner Join
+produces only the set of records that match in both DataFrame A and DataFrame B. You have to pass inner in the how argument of merge() function to do inner join:
+
+```python
+df_inner = pd.merge(df1, df2, on='id', how='inner')
+
+df_inner
+       id	Feature1_x	Feature2_x	Feature1_y	Feature2_y
+0	1	A	       B	       K	       L
+1	2	C	       D	       M	       N
+```
+
