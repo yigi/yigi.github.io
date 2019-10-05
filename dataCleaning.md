@@ -37,7 +37,22 @@ ________________________________________________________________________________
 
 - Listwise deletion can introduce bias into dataset
 - Pairwise deletion related with below.
-- Drop variableif 60% of the data is missing. But can affect the other variables. You can not know that.
+- Drop variable if 60% of the data is missing. But can affect the other variables. You can not know that.
 - Categorical var. gender -> create new level such as no gender if there is missing data and use logistic regression, KNN to estimate data
 - Continuous var. salary -> use mean median and linear regression, KNN to estimate data
 - Mean median reduces the variance of the imputed variables. shrinks the standart error.
+
+________________________________________________________________________________________________________________
+
+```python
+user_input = "This\nstring has\tsome whitespaces...\r\n"
+
+character_map = {
+	ord('\n') : ' ',
+	ord('\t') : ' ',
+	ord('\r') : None
+}
+user_input.translate(character_map)  # This string has some whitespaces... 
+```
+
+
