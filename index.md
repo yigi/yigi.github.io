@@ -89,7 +89,7 @@ ________________________________________________________________________________
      <td class="tg-c3ow">Numpy</td>
    </tr>
     <tr>
-         <td class="tg-0pky"><a href="https://yigi.github.io/Pandas/where">where</a></td>
+         <td class="tg-0pky"><a href="https://yigi.github.io/Numpy/where">where</a></td>
   </tr>
    
 </table>  
