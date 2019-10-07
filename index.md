@@ -76,6 +76,10 @@ ________________________________________________________________________________
                   <td class="tg-c3ow"><a href="https://yigi.github.io/Python/unboundLocalError">unboundLocalError</a></td>
                      <td class="tg-c3ow"><a href="https://yigi.github.io/Python/f-string">f-string</a></td>
   </tr>
+       <tr>
+         <td class="tg-0pky"><a href="https://yigi.github.io/Python/global.md">Global</a></td>
+  </tr>
+   
 </table>  
 
 ________________________________________________________________________________________________
