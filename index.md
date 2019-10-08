@@ -61,6 +61,9 @@ ________________________________________________________________________________
    <tr>
      <td class="tg-0pky"><a href="https://yigi.github.io/statistics">Statistics</a></td>
    </tr>
+   <tr>
+         <td class="tg-0pky"><a href="https://yigi.github.io/Statistics/p-value">where</a></td>
+  </tr>
 </table>  
 
 ________________________________________________________________________________________________
