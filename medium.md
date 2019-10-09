@@ -1,5 +1,3 @@
-# If I am not, who is working in my dream job?
-
 Believe or not at least 1 job related to any data science field listed on LinkedIn while you are reading this. As a further output, xxx position has posted yesterday for the keyword 'data' only. 
 
 
@@ -55,16 +53,4 @@ Director
 Executive
 40
 
-_______________________________________________________________________
 
-tecrübe,sertifika1,sertifika2,sertifika3,makale,lisans,yüksek lisans,doktora,istatistik
-0,0,0,0,0,1,0,0,0
-4,0,0,0,0,1,1,0,0
-12,0,0,0,0,1,1,0,0
-16,0,0,0,0,1,0,0,0
-2,0,0,0,0,1,0,0,0
-6,0,0,0,0,1,1,0,0
-0,ibm 8,udemy 5,0,1,0,0,0
-3,datacamp 8, udemy 1,0,1,1,0,0
-3,udemy 3,0,0,1,1,1,0,0
-12,0,0,0,0,1,0,0,0
