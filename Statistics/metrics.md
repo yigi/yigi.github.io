@@ -1,9 +1,12 @@
 True positive: Sick people correctly identified as sick
+
 False positive: Healthy people incorrectly identified as sick
+
 True negative: Healthy people correctly identified as healthy
+
 False negative: Sick people incorrectly identified as healthy
 
-<img align="center" width="500" height="300" src="https://miro.medium.com/max/446/0*HZBYBaOyXaeXWape.png">
+<img align="center" width="500" height="200" src="https://miro.medium.com/max/446/0*HZBYBaOyXaeXWape.png">
 
 ### 1. Accuracy
 It’s one of the most stereotypical metrics in Machine Learning. This metric evaluates all the correctly classified samples against the total number of samples.
@@ -41,7 +44,7 @@ From sklearn.metrics import recall_score
 Recall = recall_score(y_true, y_pred,  average=’weighted’)
 ```
 
-<img align="center" width="450" height="300" src="https://miro.medium.com/max/878/0*2oLmlEljiq6APneF.png">
+<img align="center" width="550" height="300" src="https://miro.medium.com/max/878/0*2oLmlEljiq6APneF.png">
 
 ### 4. Specificity
 Specificity is the True Negative Rate. It measures the proportion of actual negatives that are correctly identified as such. Using the above use case of a patient having a pathology or being healthy, high specificity means that the model calling a actually healthy person healthy is high.
