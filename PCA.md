@@ -1,5 +1,7 @@
 principal component analysis: singular value decomposition
 
+!çok değişkenli bir veriseti içerisindeki bilgiyi daha az değişkenle ve minimum bilgi kaybıyla açıklamanın bir matematiksel tekniğidir
+
 Iris dataset sepals and petals have length and width. this is 4 dimensions.
 PCA lets us visualize this in 2 dimensions while preserving variance
 ```python
@@ -24,3 +26,6 @@ print pca.components_
 print pca.explained_variance_ratio_
 print sum(pca.explained_variance_ratio_)
 ```
+
+
+!cells are highly corralated cluster together. 
