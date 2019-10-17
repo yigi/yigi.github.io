@@ -120,5 +120,7 @@ With Tfidfvectorizer on the contrary, you will do all three steps at once. Under
 So now you may be wondering, why you should use more steps than necessary if you can get everything done in two steps. Well, there are cases where you want to use Tfidftransformer over Tfidfvectorizer and it is sometimes not that obvious. Here is a general guideline:
 
 If you need the term frequency (term count) vectors for different tasks, use Tfidftransformer.
+
 If you need to compute tf-idf scores on documents within your “training” dataset, use Tfidfvectorizer
+
 If you need to compute tf-idf scores on documents outside your “training” dataset, use either one, both will work.
