@@ -13,7 +13,6 @@
 - Know how to apply. When to apply.
 
 
-
 ### These will transferred to a new page 
 - BERT: State of the art language model for NLP
 - ULMFIT: https://medium.com/mlreview/understanding-building-blocks-of-ulmfit-818d3775325b
@@ -22,9 +21,6 @@
 - make further research on pandas .corr()
 - since corr is zero we can infer there is no linear relationship between these two predictors. 
 - KDE: kernel density estimate useful tool for plotting the shape of distrubition
-
-### TOOLS
-- Spyder for Python
 
 ### Building a model
 - All in
