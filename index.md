@@ -51,6 +51,12 @@ ________________________________________________________________________________
     <tr>
         <td class="tg-0pky"><a href="https://yigi.github.io/dataCleaning">Data Cleaning Page</a></td>
          <td class="tg-c3ow"><a href="https://yigi.github.io/microsoftAzure">Microsoft Azure</a></td>
+          <td class="tg-0pky"><a href="https://yigi.github.io/Machine Learning/bias-variance">bias-variance</a></td>
+           <td class="tg-0pky"><a href="https://yigi.github.io/Machine Learning/feature_selection">Feature Selection</a></td>
+    </tr>
+       <tr>
+          <td class="tg-0pky"><a href="https://yigi.github.io/Machine Learning/pipeline">Pipeline</a></td>
+           <td class="tg-0pky"><a href="https://yigi.github.io/Machine Learning/tfidf">TF-IDF</a></td>
     </tr>
 
 </table>  
