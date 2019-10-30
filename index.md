@@ -68,7 +68,9 @@ ________________________________________________________________________________
      <td class="tg-0pky"><a href="https://yigi.github.io/statistics">Statistics</a></td>
    </tr>
    <tr>
-         <td class="tg-0pky"><a href="https://yigi.github.io/Statistics/p-value">p-value</a></td>
+      <td class="tg-0pky"><a href="https://yigi.github.io/Statistics/metrics">metrics</a></td>
+       <td class="tg-0pky"><a href="https://yigi.github.io/Statistics/p-value">p-value</a></td>
+        <td class="tg-0pky"><a href="https://yigi.github.io/Statistics/standart-error">standart error</a></td>
   </tr>
 </table>  
 
