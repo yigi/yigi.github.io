@@ -57,6 +57,7 @@ ________________________________________________________________________________
        <tr>
           <td class="tg-0pky"><a href="https://yigi.github.io/Machine Learning/pipeline">Pipeline</a></td>
            <td class="tg-0pky"><a href="https://yigi.github.io/Machine Learning/tfidf">TF-IDF</a></td>
+            <td class="tg-0pky"><a href="https://yigi.github.io/roc">ROC</a></td>
     </tr>
 
 </table>  
