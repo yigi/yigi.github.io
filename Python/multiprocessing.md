@@ -33,7 +33,7 @@ print()
 print('Time taken = {} seconds'.format(time.time() - starttime))
 ```
 
-<img align="center" width="400" height="450" src="https://miro.medium.com/max/487/1*y49uIX5VXBWmNoe6v-540g.png">
+<img align="center" width="400" height="250" src="https://miro.medium.com/max/487/1*y49uIX5VXBWmNoe6v-540g.png">
 
 
 ### Advantages of Multiprocessing
@@ -86,7 +86,7 @@ if __name__ == '__main__':
     print('Time taken = {} seconds'.format(time.time() - starttime))
 ```
 
-<img align="center" width="400" height="450" src="https://miro.medium.com/max/468/1*44lINvP-3XntPe7nR4kgTQ.png">
+<img align="center" width="400" height="250" src="https://miro.medium.com/max/468/1*44lINvP-3XntPe7nR4kgTQ.png">
 
 ## Using Pool class
 
@@ -124,5 +124,5 @@ if __name__ == '__main__':
     print('Time taken = {} seconds'.format(time.time() - starttime))
 ```
 
-<img align="center" width="400" height="450" src="https://miro.medium.com/max/463/1*ubuThDHEEP9Cn2vBT3FS9g.png">
+<img align="center" width="400" height="250" src="https://miro.medium.com/max/463/1*ubuThDHEEP9Cn2vBT3FS9g.png">
 
