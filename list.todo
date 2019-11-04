@@ -8,3 +8,5 @@ pandas group by: data.groupby('left side').agg(('top side':[np.size, np.mean]))
 mean absolute error
 mean squared error
 root mean squared error 
+
+https://towardsdatascience.com/pca-vs-tsne-el-cl%C3%A1sico-9948181a5f87
