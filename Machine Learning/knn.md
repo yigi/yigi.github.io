@@ -8,15 +8,15 @@
 Importance of K; 
 You can’t pick any random value for k. The whole algorithm is based on the k value. Even small changes to k may result in big changes. Like most machine learning algorithms, the K in KNN is a hyperparameter. You can think of K as a controlling variable for the prediction model.
 
-U — Shaped <img align="left" width="600" height="450" src="https://miro.medium.com/max/330/1*EuYh3kBfY5ewpWJBmbhtkg.png">
+U — Shaped <img align="middle" width="300" height="250" src="https://miro.medium.com/max/330/1*EuYh3kBfY5ewpWJBmbhtkg.png">
 
-Two set concentric circles <img align="left" width="600" height="450" src="https://miro.medium.com/max/329/1*WEE7yBtKxG0DFk3RUqHi8A.png">
+Two set concentric circles <img align="middle" width="300" height="250" src="https://miro.medium.com/max/329/1*WEE7yBtKxG0DFk3RUqHi8A.png">
 
-XOR <img align="left" width="600" height="450" src="https://miro.medium.com/max/329/1*1Rs16dKS4AphdbKOsEKLbg.png">
+XOR <img align="middle" width="300" height="250" src="https://miro.medium.com/max/329/1*1Rs16dKS4AphdbKOsEKLbg.png">
 
-Linearly separable <img align="left" width="600" height="450" src="https://miro.medium.com/max/329/1*LRT7nPgxo3mX9CrOKs15-Q.png">
+Linearly separable <img align="middle" width="300" height="250" src="https://miro.medium.com/max/329/1*LRT7nPgxo3mX9CrOKs15-Q.png">
 
-Outliers <img align="left" width="600" height="450" src="https://miro.medium.com/max/321/1*vdlSWk294GM6Oq7-fX2ONA.png">
+Outliers <img align="middle" width="300" height="250" src="https://miro.medium.com/max/321/1*vdlSWk294GM6Oq7-fX2ONA.png">
 
 
 __________________________________________________________________________________________
@@ -52,7 +52,7 @@ data1 = pd.read_csv(‘ushape.csv’)
 for i in [1,5,20,30,40,80]:
     knn_comparison(data1, i)
 ```
-<img align="left" width="600" height="450" src="https://miro.medium.com/max/368/1*xdO0y2-iTOYuxjCgzJWKGw.png">
+<img align="middle" width="600" height="450" src="https://miro.medium.com/max/368/1*xdO0y2-iTOYuxjCgzJWKGw.png">
 
 
 In all the datasets we can observe that when k=1, we are overfitting the model. That is, each point is classified correctly, you might think that it is a good thing, well as the saying goes “ too much is too bad”, overfitting essentially means that our model is training way too well to an extent that it negatively impacts the model.
