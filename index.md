@@ -60,6 +60,12 @@ ________________________________________________________________________________
             <td class="tg-0pky"><a href="https://yigi.github.io/roc">ROC</a></td>
              <td class="tg-0pky"><a href="https://yigi.github.io/Machine Learning/SelectKBest">SelectKBest</a></td>
     </tr>
+   
+       </tr>
+       <tr>
+          <td class="tg-0pky"><a href="https://yigi.github.io/Machine Learning/knn">KNN</a></td>
+
+    </tr>
 
 </table>  
 
@@ -73,6 +79,7 @@ ________________________________________________________________________________
       <td class="tg-0pky"><a href="https://yigi.github.io/Statistics/metrics">metrics</a></td>
        <td class="tg-0pky"><a href="https://yigi.github.io/Statistics/p-value">p-value</a></td>
         <td class="tg-0pky"><a href="https://yigi.github.io/Statistics/standart-error">standart error</a></td>
+         <td class="tg-0pky"><a href="https://yigi.github.io/Statistics/bayes">Bayes</a></td>
   </tr>
 </table>  
 
