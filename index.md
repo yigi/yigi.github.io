@@ -60,11 +60,8 @@ ________________________________________________________________________________
             <td class="tg-0pky"><a href="https://yigi.github.io/roc">ROC</a></td>
              <td class="tg-0pky"><a href="https://yigi.github.io/Machine Learning/SelectKBest">SelectKBest</a></td>
     </tr>
-   
-       </tr>
-       <tr>
+     <tr>
           <td class="tg-0pky"><a href="https://yigi.github.io/Machine Learning/knn">KNN</a></td>
-
     </tr>
 
 </table>  
