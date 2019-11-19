@@ -8,7 +8,7 @@ pandas group by: data.groupby('left side').agg(('top side':[np.size, np.mean]))
 mean absolute error
 mean squared error
 root mean squared error 
-python oop
+https://www.youtube.com/watch?v=ZDa-Z5JzLYM&list=PL-osiE80TeTt2d9bfVyTiXJA-UTHn6WwU&index=40
 
 https://towardsdatascience.com/pca-vs-tsne-el-cl%C3%A1sico-9948181a5f87
 https://towardsdatascience.com/customer-churn-classification-using-predictive-machine-learning-models-ab7ba165bf56
