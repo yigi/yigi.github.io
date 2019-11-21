@@ -44,3 +44,23 @@ new_emp_1 = Employee.from_string(emp_str_1)
 ```
 
 _______________________________________________________________
+
+```python
+@staticmethod
+    def staticmethodFunc():
+        print('Hello staticmethodFunc!')
+```
+
+Static methods, much like class methods, are methods that are bound to a class rather than its object.
+
+They do not require a class instance creation. So, are not dependent on the state of the object.
+
+The difference between a static method and a class method is:
+
+Static method knows nothing about the class and just deals with the parameters.
+Class method works with the class since its parameter is always the class itself.
+They can be called both by the class and its object.
+
+```python
+Class.staticmethodFunc()
+```
