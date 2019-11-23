@@ -86,3 +86,14 @@ Dunder
     def __str__(self):
         return '{} - {}'.format(self.fullname(), self.email)
  ```
+ 
+ You can use add method (by changing) to sum Employee's salaries.
+ 
+ ```python
+    def __add__(self,other):
+        return self.pay + other.pay
+ ```
+ ----> print( emp_1 + emp_2 )
+-----> 1100000
+
+_______________________________________________________________
