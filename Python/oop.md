@@ -67,9 +67,22 @@ Class.staticmethodFunc()
 
 _______________________________________________________________
 
+```python
 class Developer(Employee):
     raise_amt = 1.10
 
     def __init__(self, first, last, pay, prog_lang):
         super().__init__(first, last, pay)
         self.prog_lang = prog_lang
+```
+_______________________________________________________________
+
+Dunder
+
+```python
+    def __repr__(self):
+        return "Employee('{}', '{}', {})".format(self.first, self.last, self.pay)
+
+    def __str__(self):
+        return '{} - {}'.format(self.fullname(), self.email)
+ ```
