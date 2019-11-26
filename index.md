@@ -96,6 +96,20 @@ ________________________________________________________________________________
        <tr>
          <td class="tg-0pky"><a href="https://yigi.github.io/Python/global">Global</a></td>
           <td class="tg-0pky"><a href="https://yigi.github.io/Python/psycopg2">psycopg2</a></td>
+            <td class="tg-0pky"><a href="https://yigi.github.io/Python/functions">Functions</a></td>
+             <td class="tg-0pky"><a href="https://yigi.github.io/Python/json">json</a></td>
+               <td class="tg-0pky"><a href="https://yigi.github.io/Python/list-sets">list-sets</a></td>
+  </tr>
+        <tr>
+         <td class="tg-0pky"><a href="https://yigi.github.io/Python/list_comprehension">List Comprehension</a></td>
+          <td class="tg-0pky"><a href="https://yigi.github.io/Python/map">Map</a></td>
+            <td class="tg-0pky"><a href="https://yigi.github.io/Python/multiprocessing">Multiprocessing</a></td>
+             <td class="tg-0pky"><a href="https://yigi.github.io/Python/oop">OOP</a></td>
+               <td class="tg-0pky"><a href="https://yigi.github.io/Python/regular_expressions">Regular Expressions</a></td>
+  </tr>
+        <tr>
+         <td class="tg-0pky"><a href="https://yigi.github.io/Python/try-catch">Try / Catch </a></td>
+          <td class="tg-0pky"><a href="https://yigi.github.io/Python/virtualenv">virtualenv</a></td>
   </tr>
    
 </table>  
