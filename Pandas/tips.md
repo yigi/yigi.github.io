@@ -195,3 +195,17 @@ df_inner
 1	2	C	       D	       M	       N
 ```
 
+### Testing Data With Time Series
+
+```python
+
+num_rows = 365 * 24
+pd.util.testing.makeTimeDataFrame(num_rows, freq='H')
+...
+...
+...
+num_cols = 2
+cols = [ 'sales','customer' ]
+df = pd.DataFrame( np.random.randint (1,20,size = (num_rows,num_cols)), columns = cols)
+df.index = pd.util.testing.makeDateIndex(num_rows, freq = 'H')
+```
