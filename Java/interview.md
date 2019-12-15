@@ -86,3 +86,36 @@ Like a class, an interface can have methods and variables, but the methods decla
 The reason is, abstract classes may contain non-final variables, whereas variables in interface are final, public and static.
 
 <img align="center" width="670" height="700" src="https://miro.medium.com/max/661/1*vmQhGSTGAeIIsCX0jEPUqg.jpeg">
+
+###  Can we create non static variables in an interface? 
+
+No.We can not create non static variables in an interface. If we try to create non static variables compile time error comes.  Every variable in interface are implicitly public, static, and final.
+
+###  What will happen if we do not initialize variables in Java interface. 
+
+Compile time error will come because by default members will be treated as public static final variables so it expects some value to be initialized. 
+
+### Default Methods
+
+Unlike other abstract methods these are the methods can have a default implementation. If you have default method in an interface, it is not mandatory to override (provide body) it in the classes that are already implementing this interface.
+
+In short, you can access the default methods of an interface using the objects of the implementing classes.
+
+```java
+Example
+interface MyInterface{
+   public static int num = 100;
+   public default void display() {
+      System.out.println("display method of MyInterface");
+   }
+}
+public class InterfaceExample implements MyInterface{
+   public static void main(String args[]) {
+      InterfaceExample obj = new InterfaceExample();
+      obj.display();
+   }
+}
+```
+
+https://www.journaldev.com/2752/java-8-interface-changes-static-method-default-method
+
