@@ -1,3 +1,5 @@
+encapsulation, abstraction, inheritance, and polymorphism
+
 ### What is method overloading in OOP or Java?
 When we have multiple methods with the same name but different functionality then it's called method overloading. For example. System.out.println()
 
